@@ -1,0 +1,3 @@
+SELECT Name
+FROM Track NATURAL JOIN InvoiceLine NATURAL JOIN Invoice
+WHERE Invoice.InvoiceId IS NULL
